@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>メモアプリ</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div id="wrapper">
+        <div class="left-column">
+            <h1>メモ帳</h1>
+            <p>あなた専用のメモ帳です。</p>
+            <h3>件名を入力してください</h3>
+            <input type="text" id="subject">
+            <h3>本文を入力してください</h3>
+            <input type="text" id="body">
+            <div>
+                <button id="send">メモを作成する</button>
+            </div>
+        </div>
+        <div class="right-column">
+            <div id="memo-area"></div>
+        </div>
+    </div>
+    <script src="memo.js"></script>
+</body>
+</html>
